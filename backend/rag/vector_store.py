@@ -6,7 +6,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 
 # Path to our knowledge base file
 KNOWLEDGE_BASE_PATH = os.path.join(
-    os.path.dirname(__file__), "..", "..", "knowledge_base", "sample_policy.txt"
+    os.path.dirname(__file__), "..", "knowledge_base", "sample_policy.txt"
 )
 
 VECTOR_STORE_PATH = os.path.join(os.path.dirname(__file__), "faiss_index")
