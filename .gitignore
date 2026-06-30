@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Node
+node_modules/
+dist/
+
+# Vector store (will rebuild on deploy)
+backend/rag/faiss_index/
+
+# OS
+.DS_Store

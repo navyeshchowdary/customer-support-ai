@@ -1,0 +1,22 @@
+TechMart Electronics - Customer Support Knowledge Base
+
+=== REFUND POLICY ===
+Customers can request a refund within 30 days of purchase, provided the product is unused and in its original packaging. Refunds are processed within 5-7 business days to the original payment method. Digital products and software licenses are non-refundable once activated. To request a refund, customers must provide their order ID and reason for return.
+
+=== SHIPPING POLICY ===
+Standard shipping takes 5-7 business days within India. Express shipping takes 2-3 business days and costs an additional ₹150. Free shipping is available on orders above ₹999. We currently do not ship internationally. Customers receive a tracking ID via email once the order is dispatched.
+
+=== WARRANTY POLICY ===
+All electronics come with a 1-year manufacturer warranty covering manufacturing defects. The warranty does not cover physical damage, water damage, or unauthorized repairs. To claim warranty service, customers must provide proof of purchase and the product's serial number.
+
+=== BILLING AND PAYMENTS ===
+We accept credit cards, debit cards, UPI, and net banking. Failed payments are usually due to insufficient balance or bank server issues. If money is deducted but the order shows as failed, refunds are automatically processed within 3-5 business days. Subscription plans can be cancelled anytime from the account settings page.
+
+=== TECHNICAL SUPPORT ===
+If a product is not powering on, customers should check the power cable and try a different outlet. For software-related products, customers should ensure they are running the latest firmware update available in the settings menu. If issues persist, customers can raise a technical support ticket with their order ID.
+
+=== ACCOUNT AND LOGIN ISSUES ===
+If customers forget their password, they can reset it using the "Forgot Password" link on the login page. Accounts get locked after 5 failed login attempts and unlock automatically after 30 minutes. For persistent login issues, customers should clear their browser cache or try a different browser.
+
+=== CONTACT INFORMATION ===
+Customer support is available Monday to Saturday, 9 AM to 9 PM IST. Customers can reach us via email at support@techmart.com or call our helpline at 1800-123-4567. Live chat support is available on our website during business hours.
