@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react'
 import axios from 'axios'
 import './App.css'
 
-const API_URL = 'http://127.0.0.1:8000/chat'
+const API_URL = 'https://customer-support-ai-production-8eb5.up.railway.app/chat'
 
 function App() {
     const [messages, setMessages] = useState([
