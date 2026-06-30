@@ -7,6 +7,7 @@ import uuid
 
 from agents.router import route_query
 from database import save_message, get_conversation_history
+from rag.vector_store import build_vector_store, VECTOR_STORE_PATH
 
 load_dotenv()
 
@@ -18,6 +19,16 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.on_event("startup")
+def startup_event():
+    if not os.path.exists(VECTOR_STORE_PATH):
+        print("Vector store not found. Building it now...")
+        build_vector_store()
+        print("Vector store built successfully.")
+    else:
+        print("Vector store already exists.")
 
 
 class ChatRequest(BaseModel):
@@ -40,13 +51,10 @@ def health_check():
 def chat(request: ChatRequest):
     session_id = request.session_id or str(uuid.uuid4())
 
-    # Save the user's message
     save_message(session_id, "user", request.message)
 
-    # Get the AI response
     result = route_query(request.message)
 
-    # Save the bot's response
     save_message(session_id, "bot", result["response"], intent=result["intent"])
 
     return {
